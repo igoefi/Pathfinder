@@ -1,0 +1,29 @@
+﻿<Page x:Class="WpfTest2012.Pages.UserPages.PageUserLobby"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfTest2012.Pages.UserPages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageUserLobby">
+
+    <Grid>
+        <StackPanel                 
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center">
+
+            <Button Click="BtnPlay_Click"
+                BorderThickness="1"
+                Width="150"
+                Height="50"
+                Content="Play"/>
+
+            <Button Click="BtnUpdateUserInfo_Click"
+                BorderThickness="1"
+                Width="150"
+                Height="50"
+                Content="Update Information"/>
+        </StackPanel>
+    </Grid>
+</Page>
