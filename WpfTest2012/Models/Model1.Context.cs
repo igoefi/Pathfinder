@@ -26,6 +26,8 @@ namespace WpfTest2012.Models
         }
     
         public virtual DbSet<Card> Card { get; set; }
+        public virtual DbSet<Deck> Deck { get; set; }
+        public virtual DbSet<HeroCard> HeroCard { get; set; }
         public virtual DbSet<User> User { get; set; }
     }
 }

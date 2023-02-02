@@ -6,7 +6,9 @@
     <edmx:Diagrams>
       <Diagram DiagramId="407a9db4b5544ed094d6bd5d85d2a150" Name="Diagram1">
         <EntityTypeShape EntityType="PathfinderModelNames.Card" Width="1.5" PointX="0.75" PointY="0.75" />
-        <EntityTypeShape EntityType="PathfinderModelNames.User" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="PathfinderModelNames.Deck" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PathfinderModelNames.HeroCard" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="PathfinderModelNames.User" Width="1.5" PointX="8.5" PointY="2.875" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

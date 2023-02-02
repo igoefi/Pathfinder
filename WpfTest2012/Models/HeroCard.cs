@@ -12,14 +12,10 @@ namespace WpfTest2012.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class User
+    public partial class HeroCard
     {
         public int Id { get; set; }
-        public string Login { get; set; }
-        public string Password { get; set; }
         public string Name { get; set; }
-        public string Email { get; set; }
-        public System.DateTime LastTimeOnline { get; set; }
-        public string LastGame { get; set; }
+        public string Description { get; set; }
     }
 }

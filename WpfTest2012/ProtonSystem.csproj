@@ -77,6 +77,12 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Game\Cards\CardAbstraction.cs" />
+    <Compile Include="Game\Cards\Game Cards\GameCard.cs" />
+    <Compile Include="Game\Cards\Heroes\CardHero.cs" />
+    <Compile Include="Game\JsonDB\DeckJson.cs" />
+    <Compile Include="Game\JsonDB\GameArrays.cs" />
+    <Compile Include="Game\GameConstructor.cs" />
     <Compile Include="HelperClasses\UserController.cs" />
     <Compile Include="HelperClasses\FrameNav.cs" />
     <Compile Include="Interface\ISetUser.cs" />
@@ -110,10 +116,16 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Card.cs">
+    <Compile Include="Models\GameCard.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\DataBaseConnectContext.cs" />
+    <Compile Include="Models\Deck.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HeroCard.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
