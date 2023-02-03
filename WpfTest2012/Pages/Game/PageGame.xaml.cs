@@ -41,7 +41,7 @@ namespace WpfTest2012.Pages.Game
             };
 
             var needDeck = new Stack<GameCard>();
-            var unserDeck = (DeckJson)JsonConvert.DeserializeObject(deck.JsonArray);
+            var unserDeck = JsonConvert.DeserializeObject<DeckJson>(deck.JsonArray);
 
             foreach (var card in unserDeck.Cards)
                 needDeck.Push(new GameCard(card));
