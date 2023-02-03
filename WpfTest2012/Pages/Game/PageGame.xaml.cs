@@ -45,7 +45,7 @@ namespace WpfTest2012.Pages.Game
 
             foreach (var card in unserDeck.Cards)
                 needDeck.Push(new GameCard(card));
-            _game = new GameInfos(new WpfTest2012.Game.GameArrays(heroes, needDeck), user);
+            _game = new GameInfos(new WpfTest2012.Game.GameArraysJson(heroes, needDeck), user);
         }
 
         /*

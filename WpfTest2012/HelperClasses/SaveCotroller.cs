@@ -15,7 +15,7 @@ namespace WpfTest2012.HelperClasses
 {
     internal abstract class SaveCotroller
     {
-        public static void SaveGameInUser(GameArrays file, User user)
+        public static void SaveGameInUser(GameArraysJson file, User user)
         {
             IEnumerable<User> users = DataBaseConnectContext.ConnectContext.User.Where(c => c.Id == user.Id).
                     AsEnumerable().Select(

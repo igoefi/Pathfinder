@@ -3,7 +3,7 @@ using WpfTest2012.Models;
 
 namespace WpfTest2012.Game.Cards.Cards
 {
-    internal class GameCard : CardAbstraction
+    public class GameCard : CardAbstraction
     {
         public GameCard(Card card) : base(card.Name, card.Description) { }
     }

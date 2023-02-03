@@ -17,7 +17,7 @@ namespace WpfTest2012.Game.GameManegment
         private List<CardHero> _heroes;
 
         private User _user;
-        public GameInfos(GameArrays arrays, User user)
+        public GameInfos(GameArraysJson arrays, User user)
         {
             _deck = arrays.Deck;
             _heroes = arrays.Heroes.ToList();
@@ -27,7 +27,7 @@ namespace WpfTest2012.Game.GameManegment
 
         public void Save()
         {
-            var arrays = new GameArrays(_heroes, _deck);
+            var arrays = new GameArraysJson(_heroes, _deck);
             SaveCotroller.SaveGameInUser(arrays, _user);
         }
     }

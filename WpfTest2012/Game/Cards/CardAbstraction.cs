@@ -1,6 +1,6 @@
 ﻿namespace WpfTest2012.Cards
 {
-    internal abstract class CardAbstraction
+    public abstract class CardAbstraction
     {
         public string Name { get; private set; }
         public string Description { get; private set; }

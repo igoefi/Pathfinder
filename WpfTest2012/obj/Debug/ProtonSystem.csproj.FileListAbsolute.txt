@@ -98,3 +98,7 @@ D:\Рабочий стол\Pathfinder\WpfTest2012\obj\Debug\Pages\UserPages\Crea
 D:\Рабочий стол\Pathfinder\WpfTest2012\obj\Debug\Pages\UserPages\Create Deck\PageCreateNameDescriptionDeck.baml
 D:\Рабочий стол\Pathfinder\WpfTest2012\bin\Debug\Newtonsoft.Json.dll
 D:\Рабочий стол\Pathfinder\WpfTest2012\bin\Debug\Newtonsoft.Json.xml
+D:\Рабочий стол\Pathfinder\WpfTest2012\obj\Debug\Pages\Game\PageGame.g.cs
+D:\Рабочий стол\Pathfinder\WpfTest2012\obj\Debug\Pages\Game\PageStartGame.g.cs
+D:\Рабочий стол\Pathfinder\WpfTest2012\obj\Debug\Pages\Game\PageGame.baml
+D:\Рабочий стол\Pathfinder\WpfTest2012\obj\Debug\Pages\Game\PageStartGame.baml
