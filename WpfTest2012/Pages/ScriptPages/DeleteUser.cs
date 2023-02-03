@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WpfTest2012.HelperClasses;
+﻿using WpfTest2012.HelperClasses;
 using WpfTest2012.Interface;
 using WpfTest2012.Models;
 

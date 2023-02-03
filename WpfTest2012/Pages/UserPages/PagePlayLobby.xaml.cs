@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using WpfTest2012.Models;
 
 namespace WpfTest2012.Pages.UserPages
@@ -21,11 +9,35 @@ namespace WpfTest2012.Pages.UserPages
     /// </summary>
     public partial class PagePlayLobby : Page
     {
-        User _user;
+        readonly User _user;
         public PagePlayLobby(User user)
         {
             InitializeComponent();
             _user = user;
+        }
+
+        private void BtnContinueGame_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            if (_user.LastGame == null)
+            {
+                MessageBox.Show("Last game is null");
+                return;
+            }
+        }
+
+        private void BtnNewGame_Click(object sender, RoutedEventArgs e)
+        {
+            if (_user.LastGame != null)
+            {
+                var message = MessageBox.Show("У вас уже есть сохранённая игра. Всё равно начать новую?",
+                    "Сохранённая игра",
+                    MessageBoxButton.OKCancel,
+                    MessageBoxImage.Information);
+                if (message == MessageBoxResult.Cancel)
+                    return;
+            }
+
+            
         }
     }
 }

@@ -92,3 +92,9 @@ D:\Рабочий стол\Pathfinder\WpfTest2012\obj\Debug\WpfTest2012.Properti
 D:\Рабочий стол\Pathfinder\WpfTest2012\obj\Debug\ProtonSystem.csproj.GenerateResource.cache
 D:\Рабочий стол\Pathfinder\WpfTest2012\obj\Debug\ProtonSystem.csproj.CoreCompileInputs.cache
 D:\Рабочий стол\Pathfinder\WpfTest2012\obj\Debug\ProtonSystem.csproj.CopyComplete
+D:\Рабочий стол\Pathfinder\WpfTest2012\obj\Debug\Pages\UserPages\Create Deck\PageCreateDeck.g.cs
+D:\Рабочий стол\Pathfinder\WpfTest2012\obj\Debug\Pages\UserPages\Create Deck\PageCreateNameDescriptionDeck.g.cs
+D:\Рабочий стол\Pathfinder\WpfTest2012\obj\Debug\Pages\UserPages\Create Deck\PageCreateDeck.baml
+D:\Рабочий стол\Pathfinder\WpfTest2012\obj\Debug\Pages\UserPages\Create Deck\PageCreateNameDescriptionDeck.baml
+D:\Рабочий стол\Pathfinder\WpfTest2012\bin\Debug\Newtonsoft.Json.dll
+D:\Рабочий стол\Pathfinder\WpfTest2012\bin\Debug\Newtonsoft.Json.xml

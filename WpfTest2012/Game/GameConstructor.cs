@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.Windows;
 using WpfTest2012.Cards;
 using WpfTest2012.Game.Cards.Cards;
@@ -24,7 +20,7 @@ namespace WpfTest2012.Game
 
         public void AddHero(HeroCard hero)
         {
-            if(hero == null)
+            if (hero == null)
             {
                 MessageBox.Show("Hero is null");
                 return;
@@ -36,7 +32,7 @@ namespace WpfTest2012.Game
         {
             if (card == null)
             {
-                MessageBox.Show("Hero is null");
+                MessageBox.Show("Card is null");
                 return;
             }
             _cards.Push(new GameCard(card));
@@ -52,7 +48,7 @@ namespace WpfTest2012.Game
 
             _cards.Clear();
             foreach (var card in deck.Cards)
-                _cards.Push(card);
+                _cards.Push(new GameCard(card));
         }
 
     }

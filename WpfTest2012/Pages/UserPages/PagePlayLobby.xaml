@@ -9,6 +9,23 @@
       Title="PagePlayLobby">
 
     <Grid>
-        
+        <StackPanel
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Height="100"
+            Width="300">
+            <Button
+                Height="50"
+                Click="BtnNewGame_Click"
+                Content="Start new game"
+                BorderThickness="2"/>
+            
+            <Button
+                Height="50"
+                Click="BtnContinueGame_Click"
+                Content="Continue game"
+                BorderThickness="2"/>
+
+        </StackPanel>
     </Grid>
 </Page>

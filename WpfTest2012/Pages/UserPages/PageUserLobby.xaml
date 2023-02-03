@@ -24,6 +24,12 @@
                 Width="150"
                 Height="50"
                 Content="Update Information"/>
+            
+            <Button Click="BtnCreateDeck_click"
+                BorderThickness="1"
+                Width="150"
+                Height="50"
+                Content="Create Deck"/>
         </StackPanel>
     </Grid>
 </Page>

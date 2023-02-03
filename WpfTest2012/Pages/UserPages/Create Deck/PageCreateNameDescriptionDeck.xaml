@@ -1,0 +1,34 @@
+﻿<Page x:Class="WpfTest2012.Pages.UserPages.PageCreateNameDescriptionDeck"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfTest2012.Pages.UserPages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageCreateNameDescriptionDeck">
+
+    <Grid>
+        <StackPanel
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Width="200">
+            <GroupBox Header="Название колоды">
+                <TextBox 
+                    Name="TxbName"
+                    />
+            </GroupBox>
+
+            <GroupBox Header="Описание колоды"
+                      Height="150">
+                <TextBox 
+                    Name="TxbDescription"/>
+            </GroupBox>
+
+            <Button
+                Height="20"
+                Content="Start create deck"
+                Click="BtnStartCreateDeck"/>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using WpfTest2012.Models;
 
@@ -15,7 +13,7 @@ namespace WpfTest2012.HelperClasses
         {
             try
             {
-                var user = DataBaseConnectContext.ConnectContext.User.FirstOrDefault(x => x.Login == login);
+                User user = DataBaseConnectContext.ConnectContext.User.FirstOrDefault(x => x.Login == login);
                 if (user != null)
                 {
                     MessageBox.Show("Логин занят");
@@ -40,7 +38,8 @@ namespace WpfTest2012.HelperClasses
 
         public static void UpdateUserInformation(User oldUser, string login, string password, string name, string email)
         {
-            try{
+            try
+            {
                 IEnumerable<User> users = DataBaseConnectContext.ConnectContext.User.Where(c => c.Id == oldUser.Id).
                     AsEnumerable().Select(
                     c =>
@@ -53,12 +52,12 @@ namespace WpfTest2012.HelperClasses
                         return c;
                     });
 
-                foreach (var user in users)
+                foreach (User user in users)
                     DataBaseConnectContext.ConnectContext.Entry(user).State = EntityState.Modified;
 
                 DataBaseConnectContext.ConnectContext.SaveChanges();
             }
-            catch(Exception exeption)
+            catch (Exception exeption)
             {
                 MessageBox.Show(exeption.ToString());
             }

@@ -4,7 +4,25 @@
     <EntitySetMapping Name="Card">
       <EntityTypeMapping TypeName="PathfinderModelNames.Card">
         <MappingFragment StoreEntitySet="Card">
-          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Deck">
+      <EntityTypeMapping TypeName="PathfinderModelNames.Deck">
+        <MappingFragment StoreEntitySet="Deck">
+          <ScalarProperty Name="JsonArray" ColumnName="JsonArray" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HeroCard">
+      <EntityTypeMapping TypeName="PathfinderModelNames.HeroCard">
+        <MappingFragment StoreEntitySet="HeroCard">
           <ScalarProperty Name="Description" ColumnName="Description" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Id" ColumnName="Id" />
@@ -14,6 +32,7 @@
     <EntitySetMapping Name="User">
       <EntityTypeMapping TypeName="PathfinderModelNames.User">
         <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="LastGame" ColumnName="LastGame" />
           <ScalarProperty Name="LastTimeOnline" ColumnName="LastTimeOnline" />
           <ScalarProperty Name="Email" ColumnName="Email" />
           <ScalarProperty Name="Name" ColumnName="Name" />

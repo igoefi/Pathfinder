@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Рабочий стол\Pathfinder\WpfTest2012\App.xaml
-71737093262
+91801985287
 2-1223955081
-21-1894268624
-211675426252
-MainWindow.xaml;Pages\UserPages\PagePlayLobby.xaml;Pages\UserPages\PageUserLobby.xaml;Pages\UserPages\UpdateUserInformationPage.xaml;Pages\MainPages\PageCreateUser.xaml;Pages\InfoPages\PageAboutProgram.xaml;Pages\MainPages\PageLogin.xaml;
+32-1061762857
+22421964280
+MainWindow.xaml;Pages\UserPages\Create Deck\PageCreateDeck.xaml;Pages\UserPages\Create Deck\PageCreateNameDescriptionDeck.xaml;Pages\UserPages\PagePlayLobby.xaml;Pages\UserPages\PageUserLobby.xaml;Pages\UserPages\UpdateUserInformationPage.xaml;Pages\MainPages\PageCreateUser.xaml;Pages\InfoPages\PageAboutProgram.xaml;Pages\MainPages\PageLogin.xaml;
 
 False
 
