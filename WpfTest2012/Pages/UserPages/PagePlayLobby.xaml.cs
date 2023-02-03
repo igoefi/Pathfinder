@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
+using WpfTest2012.HelperClasses;
 using WpfTest2012.Models;
 
 namespace WpfTest2012.Pages.UserPages
@@ -37,7 +38,7 @@ namespace WpfTest2012.Pages.UserPages
                     return;
             }
 
-            
+            FrameNav.frameNavigation.Navigate(new PageStartGame(_user));
         }
     }
 }
